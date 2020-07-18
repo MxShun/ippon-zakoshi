@@ -6,7 +6,7 @@
 
 ### "What happens when all computer keys are pressed at once?"
 ![theme](https://github.com/MxShun/ippon-zakoshi/blob/master/images/theme.jpg "Theme")
-s
+
 
 ## Install
 ![program](https://github.com/MxShun/ippon-zakoshi/blob/master/images/program.jpg "Program")
