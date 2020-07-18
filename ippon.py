@@ -27,15 +27,15 @@ root = tk.Tk()
 root.title('IPPON Hollywood Zakoshisyoh')
 root.geometry('1280x720')
 root.configure(bg='#ffc700')
-root.tk.call('wm', 'iconphoto', root._w, tk.PhotoImage(data = ICON_BASE64))
+root.tk.call('wm', 'iconphoto', root._w, tk.PhotoImage(data=ICON_BASE64))
 
 # テキスト表示
-body_font = tkfont.Font(family = 'Meiryo UI', size = 90, weight = 'bold')
-body = tk.Label(root, text = 'パソコンの全ボタンを\n一斉に押したら\n何が起きますか？', bg = '#ffc700', font = body_font)
-body.pack(anchor = 'center', expand = True)
-title_font = tkfont.Font(family = 'Meiryo UI', size = 60, weight = 'bold')
-title = tk.Label(root, text = 'IPPON GRAND PRIX', fg = '#ffc700', bg = '#000000', font = title_font, width = '50')
-title.pack(anchor = 's')
+body_font = tkfont.Font(family='Meiryo UI', size=90, weight='bold')
+body = tk.Label(root, text='パソコンの全ボタンを\n一斉に押したら\n何が起きますか？', bg='#ffc700', font=body_font)
+body.pack(anchor='center', expand=True)
+title_font = tkfont.Font(family='Meiryo UI', size=60, weight='bold')
+title = tk.Label(root, text='IPPON GRAND PRIX', fg='#ffc700', bg='#000000', font=title_font, width='50')
+title.pack(anchor='s')
 
 # ホットキー設定
 keyboard.add_hotkey(ALL_KEYS, lambda: zakoshi.answer(body))
