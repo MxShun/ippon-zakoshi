@@ -1,6 +1,6 @@
 # images
 images/*
-!images/theme.jpg
+!images/*.jpg
 
 # secret module
 zakoshi.py
