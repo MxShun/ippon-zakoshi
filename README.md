@@ -1,6 +1,6 @@
 # IPPON Hollywood Zakoshisyoh
 [![release](https://img.shields.io/badge/release-v1.1-blue)](https://github.com/MxShun/ippon-zakoshi/releases)
-
+[![license](https://img.shields.io/github/license/MxShun/ippon-zakoshi)](https://github.com/MxShun/ippon-zakoshi/blob/master/LICENSE)
 [![Build Status](https://travis-ci.com/MxShun/ippon-zakoshi.svg?branch=master)](https://travis-ci.com/MxShun/ippon-zakoshi)
 
 
