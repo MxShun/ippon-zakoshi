@@ -26,7 +26,7 @@ ctrl + alt + enter\
 root = tk.Tk()
 root.title('IPPON Hollywood Zakoshisyoh')
 root.geometry('1280x720')
-root.configure(bg = '#ffc700')
+root.configure(bg='#ffc700')
 root.tk.call('wm', 'iconphoto', root._w, tk.PhotoImage(data = ICON_BASE64))
 
 # テキスト表示
