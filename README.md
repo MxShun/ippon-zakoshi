@@ -9,7 +9,7 @@
 
 
 ## Install
-![program](https://github.com/MxShun/ippon-zakoshi/blob/master/images/program.jpg "Program
+![program](https://github.com/MxShun/ippon-zakoshi/blob/master/images/program.jpg "Program")
 
 Try it. (Inform you that there is a secret hotkey; "SPACE")
 
