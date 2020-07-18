@@ -1,19 +1,9 @@
 import tkinter as tk
 import tkinter.font as tkfont
+
 import keyboard
-import webbrowser
 
-
-# ホットキーが押されたときの処理
-def tko_kinoshita():
-    webbrowser.open('https://www.youtube.com/watch?v=AYWJ8Gq9SR8&t=28s')
-    body['text'] = 'TKO木下の\nYouTubeが流れる'
-
-
-# ホットキーが押されたときの処理（テスト用）
-def test_tko_kinoshita():
-    print('Test')
-    tko_kinoshita()
+import zakoshi
 
 
 # faviconの埋め込み
@@ -25,13 +15,14 @@ EZL3QzxB1Kr1is1qt9xGAQA7
 
 # 全ボタン
 ALL_KEYS = '''\
-1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 0 +\
 q + w + e + r + t + y + u + i + o + p +\
 a + s + d + f + g + h + j + k + l + z +\
-x + c + v + b + n + m\
+x + c + v + b + n + m + esc + shift +\
+ctrl + alt + enter\
 '''
 
-# 諸設定
+
+# ウィンドウ設定
 root = tk.Tk()
 root.title('IPPON Hollywood Zakoshisyoh')
 root.geometry('1280x720')
@@ -47,7 +38,7 @@ title = tk.Label(root, text = 'IPPON GRAND PRIX', fg = '#ffc700', bg = '#000000'
 title.pack(anchor = 's')
 
 # ホットキー設定
-keyboard.add_hotkey(ALL_KEYS, tko_kinoshita)
-keyboard.add_hotkey('space + enter', test_tko_kinoshita)
+keyboard.add_hotkey(ALL_KEYS, lambda: zakoshi.answer(body))
+keyboard.add_hotkey('space', lambda: zakoshi.answer(body)) # シークレットホットキー（テスト用）
 
 root.mainloop()
