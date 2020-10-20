@@ -8,15 +8,15 @@
 ![theme](https://github.com/MxShun/ippon-zakoshi/blob/master/images/theme.jpg "Theme")
 
 
-## Install
+## 🖊Install
 ![program](https://github.com/MxShun/ippon-zakoshi/blob/master/images/program.jpg "Program")
 
 Try it. (Inform you that there is a secret hotkey; "SPACE")
 
 
-## License
+## 📝License
 [MIT License](https://github.com/MxShun/pomodoro-it/blob/master/LICENSE)
 
 
-## Note
+## 📒Note
 This is a joke.
